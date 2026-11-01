@@ -1,0 +1,7 @@
+/**:
+  ros__parameters:
+    rate_hz: 50.0
+    wheel_speed_std_rad_s: 0.1
+    initial_position_std_m: 0.001
+    initial_yaw_std_rad: 0.001
+    publish_tf: false

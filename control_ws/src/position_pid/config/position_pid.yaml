@@ -1,0 +1,22 @@
+/**:
+  ros__parameters:
+    control_rate_hz: 50.0
+    odom_timeout_sec: 0.2
+    odom_frame: odom
+    base_frame: base_link
+    kp_xy: 15.0
+    ki_xy: 1.5
+    kd_xy: 0.0
+    kp_yaw: 15.0
+    ki_yaw: 1.5
+    kd_yaw: 0.0
+    max_linear_speed: 1.0
+    max_angular_speed: 2.0
+    max_linear_accel: 1.0
+    max_angular_accel: 2.0
+    integral_limit_xy: 0.5
+    integral_limit_yaw: 1.0
+    position_tolerance: 0.02
+    yaw_tolerance: 0.03
+    settled_linear_speed: 0.03
+    settled_angular_speed: 0.05

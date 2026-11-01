@@ -1,0 +1,12 @@
+serial_bridge:
+  ros__parameters:
+    port: "/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0"
+    baudrate: 460800
+    command_rate_hz: 50.0
+    command_timeout_sec: 0.3
+    reconnect_interval_sec: 1.0
+    imu_frame_id: imu_link
+    wheel_frame_id: base_link
+    wheel_topic: drive/wheel_states
+    wheel_names: [front_left_wheel, front_right_wheel, rear_left_wheel, rear_right_wheel]
+    magnetic_scale_t_per_lsb: 0.0

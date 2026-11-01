@@ -1,0 +1,23 @@
+# ROS / colcon generated files
+**/build/
+**/install/
+**/log/
+**/run/
+logs/
+test_logs/
+# Python caches and environments
+**/__pycache__/
+**/.pytest_cache/
+*.py[cod]
+**/*.egg-info/
+.venv/
+venv/
+# Local credentials and machine files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.DS_Store

@@ -1,0 +1,14 @@
+/**:
+  ros__parameters:
+    rate_hz: 50.0
+    calibration_sec: 1.0
+    stationary_dwell_sec: 0.5
+    stationary_bias_only: true
+    angular_accel_time_constant_sec: 0.05
+    accel_noise: 0.6
+    gyro_noise: 0.035
+    gyro_bias_walk: 0.0005
+    accel_bias_walk: 0.04
+    wheel_noise_x: 0.05
+    wheel_noise_y: 0.05
+    publish_tf: false

@@ -1,0 +1,13 @@
+/**:
+  ros__parameters:
+    wheel_topic: /drive/wheel_states
+    imu_topic: /imu/data_raw
+    base_frame: base_link
+    odom_frame: odom
+    wheel_radius_m: 0.0385
+    track_width_m: 0.196
+    wheel_base_m: 0.160
+    # Sensor axes coincide with base_link; position is measured from body center.
+    imu_to_body: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+    imu_position_body_m: [0.08, 0.0, 0.0]
+    sensor_timeout_sec: 0.1

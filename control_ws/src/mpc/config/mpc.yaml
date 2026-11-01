@@ -1,0 +1,25 @@
+/**:
+  ros__parameters:
+    control_rate_hz: 20.0
+    odom_timeout_sec: 0.2
+    odom_frame: odom
+    base_frame: base_link
+    horizon_steps: 12
+    prediction_dt: 0.05
+    weight_position: 20.0
+    weight_yaw: 10.0
+    terminal_weight_multiplier: 5.0
+    weight_velocity: 0.1
+    weight_yaw_rate: 0.1
+    weight_velocity_change: 0.5
+    weight_yaw_rate_change: 0.2
+    max_linear_speed: 0.2
+    max_angular_speed: 0.5
+    max_linear_accel: 0.3
+    max_angular_accel: 0.8
+    position_tolerance: 0.02
+    yaw_tolerance: 0.03
+    settled_linear_speed: 0.03
+    settled_angular_speed: 0.05
+    solver_max_iterations: 60
+    solver_ftol: 0.000001

@@ -1,0 +1,20 @@
+[
+  {
+    "command": 257,
+    "sequence": 0,
+    "payload": "cdcccc3ecdcc4cbecdcc4c3f",
+    "frame": "a50c0000780101cdcccc3ecdcc4cbecdcc4c3ff4f4"
+  },
+  {
+    "command": 257,
+    "sequence": 255,
+    "payload": "0000803f000000c000004040000080c0",
+    "frame": "a51000ffbc01010000803f000000c000004040000080c02b36"
+  },
+  {
+    "command": 258,
+    "sequence": 17,
+    "payload": "cdcccc3dcdcc4cbe9a99993e00000000000000000ae81c410000f6420000e4c300404544",
+    "frame": "a52400110a0201cdcccc3dcdcc4cbe9a99993e00000000000000000ae81c410000f6420000e4c30040454433d8"
+  }
+]
